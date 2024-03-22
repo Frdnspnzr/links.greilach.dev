@@ -95,7 +95,7 @@ div::before {
   div.in-view::before {
     opacity: 1;
   }
-  div.inv-iew h3 {
+  div.in-view h3 {
     opacity: 1;
   }
 }
