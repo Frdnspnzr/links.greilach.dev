@@ -20,6 +20,23 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+@media (min-width: 660px) {
+  body {
+    --scrollbar-thumb: color-mix(in srgb, var(--color-text) 70%, transparent);
+    --scrollbar-track: transparent;
+    scrollbar-width: thin;
+    scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+  }
+  body::-webkit-scrollbar {
+    width: 0.5rem;
+    background-color: var(--scrollbar-track);
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb);
+  }
+}
+
 main {
   display: flex;
   flex-direction: row;
