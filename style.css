@@ -66,8 +66,7 @@ a {
     min-width: none;
     max-width: none;
     width: 100vw;
-    height: 33vh;
-    flex: 0;
+    flex-basis: 33svh;
   }
 }
 
